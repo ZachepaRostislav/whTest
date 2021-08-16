@@ -1,0 +1,29 @@
+.content-list-item {
+   background-color: inherit;
+   padding: 20px 10% 30px;     
+}
+
+.content-list-item p:nth-child(1) {
+  padding-top: 5px;
+  font-size: 20px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: 600;
+  color:red;
+}
+.content-list-item::after {
+  display: block;
+  content: "";
+  border-bottom: 2px solid rgb(104, 102, 102);
+}
+.content-list-item p:nth-child(2) {  
+  padding: 20px;
+  font-size: 24px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  background-color: #90caf9;  
+  color: #000;
+}
+
+.content-pagination {
+  display: inline-block;
+}
